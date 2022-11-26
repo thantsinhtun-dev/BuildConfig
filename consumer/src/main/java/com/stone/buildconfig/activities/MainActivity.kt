@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
-import com.stone.buildconfig.R
 import com.stone.buildconfig.adapters.RestaurantAdapter
+import com.stone.consumer.R
 import com.stone.shared.data.vo.RestaurantVO
 import com.stone.shared.mvp.presenter.MainPresenter
 import com.stone.shared.mvp.presenter.MainPresenterImpl
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(),MainView {
     }
 
     private fun setUpToolBar() {
-        actionBar?.title =  getString(R.string.app_name)
+        actionBar?.title =  "Welcome to ${getString(R.string.app_name)}"
     }
 
     override fun showRestaurants(restaurants: List<RestaurantVO>) {

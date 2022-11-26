@@ -3,7 +3,7 @@ package com.stone.buildconfig.viewholders
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.stone.buildconfig.R
+import com.stone.consumer.R
 import com.stone.shared.data.vo.RestaurantVO
 import kotlinx.android.synthetic.main.item_restaurant.view.*
 

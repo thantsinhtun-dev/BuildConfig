@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.stone.buildconfig.R
 import com.stone.buildconfig.viewholders.RestaurantViewHolder
+import com.stone.consumer.R
 import com.stone.shared.data.vo.RestaurantVO
 
 class RestaurantAdapter: RecyclerView.Adapter<RestaurantViewHolder>() {
