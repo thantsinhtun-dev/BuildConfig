@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1037571364870",
+    "project_id": "build-config-7cd7d",
+    "storage_bucket": "build-config-7cd7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037571364870:android:d3c6d91b5de27ac3ed4b87",
+        "android_client_info": {
+          "package_name": "com.stone.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037571364870-mkr0s71nc5olkpuv3rvkq951htdll9bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4htdvxi2QOeYnPQXYmnRw0en_-47VxuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037571364870-mkr0s71nc5olkpuv3rvkq951htdll9bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
